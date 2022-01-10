@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:enabled="false"
-            android:onClick="onButtonClick"
+            android:onClick="onBackButtonClick"
             android:text="@string/bt_back"/>
         <!-- 再生ボタン -->
         <Button
@@ -44,6 +44,7 @@
         android:id="@+id/swLoop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sw_loop"/>
+        android:checked="false"
+        android:text="@string/sw_loop" />
 
 </LinearLayout>
